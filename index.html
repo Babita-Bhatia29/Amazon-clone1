@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+    <link rel="stylesheet" href="/cssfiles/owl.carousel.css">
+    <link rel="stylesheet" href="/cssfiles/owl.theme.green.css">
+    <script src="/jsfiles/jquery.min.js"></script>
+    <script src="/jsfiles/owl.carousel.min.js"></script>
+    <style>
+        .section2 {
+            margin-top: 5px;
+        }
+
+        .divsion1 {
+            background-color: aliceblue;
+            padding: 5px;
+        }
+
+        .section3 {
+            margin-top: -300px;
+        }
+
+        .section4 {
+            height: 400px;
+            background: rgb(191, 241, 241);
+            background: linear-gradient(121deg, rgba(191, 241, 241, 1) 39%, rgba(245, 249, 181, 1) 49%);
+        }
+
+        .section8{
+            background: rgb(191, 241, 241);
+            background: linear-gradient(121deg, rgba(191, 241, 241, 1) 39%, rgba(245, 249, 181, 1) 49%);
+        }
+
+        .section6 {
+            padding: 50px;
+            background: rgb(191, 241, 241);
+            background: linear-gradient(121deg, rgba(191, 241, 241, 1) 39%, rgba(245, 249, 181, 1) 49%);
+        }
+
+        .section7 {
+            background: rgb(191, 241, 241);
+            background: linear-gradient(121deg, rgba(191, 241, 241, 1) 39%, rgba(245, 249, 181, 1) 49%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        .section5{
+            background: rgb(191, 241, 241);
+            background: linear-gradient(121deg, rgba(191, 241, 241, 1) 39%, rgba(245, 249, 181, 1) 49%); 
+        }
+        .input:hover{
+          box-shadow: 2px 5px 8px blue;            
+        }
+        .span1 {
+            margin: 10px;
+            color: white;
+        }
+
+        .section11 {
+            background-color: black;
+            height: 50px;
+            padding: 5px;
+            margin-top: 60px;
+        }
+        .section1{
+            position: fixed;
+            top:0px;
+            width:100%;
+            z-index: 9999999999999;
+        }
+        .ancor {
+            text-decoration: none;
+            color: whitesmoke;
+            
+        }
+
+        .section12 {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- section for navbar -->
+    <section class="section1">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:gray">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/amzon icon.webp" alt="" width="30" height="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+     <!-- section for menu bar-->
+     <section class="section11">
+        <ul style="list-style: none;">
+            <li class="span1"> All
+                <span class="span1">Best Seller</span>
+                <span class="span1">Today's Deals</span>
+                <span class="span1">Mobiles</span>
+                <span class="span1">Customer Service</span>
+                <span class="span1">Books</span>
+                <span class="span1">Electronics</span>
+                <span class="span1">Fashion</span>
+                <span class="span1">Home & kitchen</span>
+                <span class="span1">Prime</span>
+                <span class="span1"> <span><a class="navbar-brand" href="#">
+                            <img src="images/diya icon.png" alt="" width="30" height="24">
+                        </a></span> Happiness Upgrade days</span>
+            </li>
+        </ul>
+    </section>
+    <!-- section for carousel -->
+    <section class="section2 " style="margin-top: 0px;">
+        <!-- Start WOWSlider.com BODY section -->
+        <div id="wowslider-container1" style="z-index: -1;">
+            <div class="ws_images">
+                <ul>
+                    <li><img src="data1/images/img1.jpg" alt="img1" title="img1" id="wows1_0" /></li>
+                    <li><img src="data1/images/img2.jpg" alt="img2" title="img2" id="wows1_1" /></li>
+                    <li><img src="data1/images/img3.jpg" alt="img3" title="img3" id="wows1_2" /></li>
+                    <li><img src="data1/images/img5.jpg" alt="img5" title="img5" id="wows1_3" /></li>
+                    <li><img src="data1/images/img6.jpg" alt="img6" title="img6" id="wows1_4" /></li>
+                    <li><a href="http://wowslider.net"><img src="data1/images/img7.jpg" alt="jquery image carousel"
+                                title="img7" id="wows1_5" /></a></li>
+                    <li><img src="data1/images/img4.jpg" alt="img4" title="img4" id="wows1_6" /></li>
+                </ul>
+            </div>
+            <div class="ws_bullets">
+                <div>
+                    <a href="#" title="img1"><span><img src="data1/tooltips/img1.jpg" alt="img1" />1</span></a>
+                    <a href="#" title="img2"><span><img src="data1/tooltips/img2.jpg" alt="img2" />2</span></a>
+                    <a href="#" title="img3"><span><img src="data1/tooltips/img3.jpg" alt="img3" />3</span></a>
+                    <a href="#" title="img5"><span><img src="data1/tooltips/img5.jpg" alt="img5" />4</span></a>
+                    <a href="#" title="img6"><span><img src="data1/tooltips/img6.jpg" alt="img6" />5</span></a>
+                    <a href="#" title="img7"><span><img src="data1/tooltips/img7.jpg" alt="img7" />6</span></a>
+                    <a href="#" title="img4"><span><img src="data1/tooltips/img4.jpg" alt="img4" />7</span></a>
+                </div>
+            </div>
+            <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">slideshow html
+                    code</a> by WOWSlider.com v9.0</div>
+            <div class="ws_shadow"></div>
+        </div>
+        <script type="text/javascript" src="engine1/wowslider.js"></script>
+        <script type="text/javascript" src="engine1/script.js"></script>
+        <!-- End WOWSlider.com BODY section -->
+    </section>
+    <!-- section for carousel -->
+    <section class="row container-fluid section3" style="z-index:99 ">
+        <!-- div1 -->
+        <div class="col-md-3">
+            <div class="divsion1">
+                <div class="row">
+                    <h4>Up to 70% off | Amazon Brands & more</h4>
+                    <div class="col-6"><img src="images/amz1.jpg" alt="" style="width:100%">yjgajk</div>
+                    <div class="col-6"><img src="images/amz2.jpg" alt="" style="width: 100%;">jytwdjQ</div>
+                </div>
+                <div class="row">
+                    <div class="col-6"><img src="images/amz3.jpg" alt="" style="width:100%">KWGDQJ</div>
+                    <div class="col-6"><img src="images/amz4.jpg" alt="" style="width:100%">Kuqtwdkuq</div>
+                </div>
+            </div>
+        </div>
+        <!-- div2 -->
+        <div class="col-md-3">
+            <div class="divsion1">
+                <div class="row">
+                    <h2>Great Indian Festival</h2> <br> <br> <br>
+                    <div class="col-6"><img src="images/amz5.jpg" alt="" style="width:100%">auweydhwb</div>
+                    <div class="col-6"><img src="images/amz6.jpg" alt="" style="width:100%">kautwkJQH</div>
+                </div>
+                <div class="row">
+                    <div class="col-6"><img src="images/amz7.jpg" alt="" style="width:100%">KUYGWDHAS</div>
+                    <div class="col-6"><img src="images/amz8.jpg" alt="" style="width:100%">KYWGDHASB</div>
+                </div>
+            </div>
+        </div>
+        <!-- div3 -->
+        <div class="col-md-3">
+            <div class="divsion1">
+                <div class="row">
+                    <h3>Up to 30% off | Travel tickets</h3>
+                    <div class="col-6"><img src="images/amz9.jpg" alt="" style="width:100%">jkdgfhasbj</div>
+                    <div class="col-6"><img src="images/amz10.jpg" alt="" style="width:100%">awgedbKA</div>
+                </div>
+                <div class="row">
+                    <div class="col-6"><img src="images/amz11.jpg" alt="" style="width:100%">kurfaueha</div>
+                    <div class="col-6"><img src="images/amz12.jpg" alt="" style="width:100%">ksuetkcbauw</div>
+                </div>
+            </div>
+        </div>
+        <!-- div4 -->
+        <div class="col-md-3">
+            <div class="divsion1">
+                <h3>Starting ₹49 | Home, Kitchen & more</h3>
+                <div class="row">
+                    <div class="col-6"><img src="images/amz13.jpg" alt="" style="width:100%">kauwrcvakw</div>
+                    <div class="col-6"><img src="images/amz14.jpg" alt="" style="width:100%">kauycwbkuQW</div>
+                </div>
+                <div class="row">
+                    <div class="col-6"><img src="images/amz15.jpg" alt="" style="width:100%">UEVCKAUQWCYBQK</div>
+                    <div class="col-6"><img src="images/amz16.jpg" alt="" style="width:100%">egurbcakuwe</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section for gradiant -->
+    <section class="section4">
+        <h1>Blockbuster Deals</h1>
+        <div class="owl-carousel owl-theme">
+            <!-- div1 -->
+            <div class="item">
+                <div class="card" style="width:90 ">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <img src="images/phn1.jpg" alt="">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <!-- div2 -->
+            <div class="item">
+                <div class="card" style="width: 90%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <img src="images/phn2.jpg" alt="">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <!-- div3 -->
+            <div class="item">
+                <div class="card" style="width: 90%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <img src="images/phn3.jpg" alt="">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <!-- div4 -->
+            <div class="item">
+                <div class="card" style="width: 90%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <img src="images/phn4.jpg" alt="">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <!-- div5 -->
+            <div class="item">
+                <div class="card" style="width: 90%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <img src="images/phn5.jpg" alt="">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <!-- div6 -->
+            <div class="item">
+                <div class="card" style="width: 90%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <img src="images/phn6.jpg" alt="">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <!-- div7 -->
+            <div class="item">
+                <div class="card" style="width: 90%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <img src="images/phn7.jpg" alt="">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <!-- div8 -->
+            <div class="item">
+                <div class="card" style="width:90%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <img src="images/phn8.jpg" alt="">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <!-- div9 -->
+            <div class="item">
+                <div class="card" style="width: 90%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <img src="images/phn9.jpg" alt="">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <!-- div10 -->
+            <div class="item">
+                <div class="card" style="width: 90%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <img src="images/phn10.jpg" alt="">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <!-- div11 -->
+            <div class="item">
+                <div class="card" style="width: 90%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <img src="images/phn11.jpg" alt="">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <!-- div12 -->
+            <div class="item">
+                <div class="card" style="width:90%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <img src="images/phn12.jpg" alt="">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section for cards -->
+    <section class="section8">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="card" style="width: 80%;">
+                    <img src="images/bab1.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card" style="width: 80%;">
+                    <img src="images/bab2.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card" style="width: 80%;">
+                    <img src="images/bab3.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card" style="width: 80%;">
+                    <img src="images/bab4.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card" style="width: 80%;">
+                    <img src="images/bab5.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card" style="width: 80%;">
+                    <img src="images/bab6.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card" style="width: 80%;">
+                    <img src="images/bab8.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card" style="width: 80%;">
+                    <img src="images/bab9.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card" style="width: 80%;">
+                    <img src="images/bab10.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card" style="width: 80%;">
+                    <img src="images/bab12.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card" style="width: 80%">
+                    <img src="images/bab2.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card" style="width: 80%;">
+                    <img src="images/bab1.jpg" class="card-img-top" alt="..." style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section for banner -->
+    <section class="section6">
+        <div style="padding:20px; background-color:azure">
+            <img src="images/banner1.jpg" alt="" style="display: block;margin-left:auto; margin-right:auto">
+        </div>
+    </section>
+    <!-- section for bootstrap grid -->
+    <section class="row container-fluid section7">
+        <div class="col-md-4">
+            <div style="padding:20px ;background-color:aliceblue">
+                <h4>Up to 70% off | International brands</h4> <br>
+                <img src="images/sup1.jpg" alt="">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div style="padding:20px ;background-color:aliceblue">
+                <div class="row">
+                    <h3>Great Indian Festival | Brands in Focus</h3> <br> <br> <br>
+                    <div class="col-6"><img src="images/amz1.jpg" alt="">uhAHSLidE</div>
+                    <div class="col-6"><img src="images/amz2.jpg" alt="">uhAHSLidE</div>
+                </div>
+            </div>
+            <div style="padding:20px; background-color:aliceblue">
+                <div class="row">
+                    <div class="col-6"><img src="images/amz3.jpg" alt="">uhAHSLidE</div>
+                    <div class="col-6"><img src="images/amz4.jpg" alt="">uhAHSLidE</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div style="padding:20px ;background-color:aliceblue; ">
+                <h4>Up to 55% off | Lowest prices of the year |</h4> <br>
+                <img src="images/sup2.jpg" alt="" style="width: 100%;">
+            </div>
+        </div>
+    </section>
+    <!-- section for banner 2 -->
+    <section class="section5" style="padding: 20px;">
+        <div style="padding: 20px; margin:10px ; background-color:aliceblue">
+            <img src="images/banner1.jpg" alt="" style="width:100%">
+        </div>
+    </section>
+    <!-- section for bootstrap grid -->
+    <section class="row container-fluid section7" style="padding:20px">
+        <div class="col-md-4">
+            <div style="padding: 10px; height:400px ; background-color:aliceblue">
+                <div class="row">
+                    <h4>Up to 70% off | Amazon Brands & more</h4>
+                    <div class="col-6"><img src="images/amz1.jpg" alt="" style="width: 100%;">uwbutqt</div>
+                    <div class="col-6"><img src="images/amz2.jpg" alt="" style="width:100%">uwbutqt</div>
+                </div>
+                <div class="row">
+                    <div class="col-6"><img src="images/amz3.jpg" alt="" style="width:100%">uwbutqt</div>
+                    <div class="col-6"><img src="images/amz4.jpg" alt="" style="width:100%">uwbutqt</div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-md-4">
+            <div style="padding:10px ; height:400px ; background-color:aliceblue">
+                <h5>Upgrade your kitchen with double door refrigerators...</h5>
+                <img src="images/1.jpg " alt="" style="width:100%">
+            </div>
+           
+        </div>
+        <div class="col-md-4">
+            <div style="padding:20px; height:200px; background-color:aliceblue">
+                <div class="row">
+                <div class="col-12">
+                    <form action="">
+                        <h4 style="text-align: center;">Sign Up</h4>
+                        <label for="" style="display:flexbox ;">E-mail</label>
+                        <input style="margin:20px" type="email"> <br> 
+                        <label for="">Password</label>
+                        <input type="password"> <br> <br>
+                        <input type="submit" class="input" value="login" style="display:block; margin-left:auto; margin-right:auto; background-color:black; color:white;border-radius:10px 10px 10px 10px;">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div style="padding:10px; background-color:aliceblue;height:200px ">
+            <div class="row">
+                <h4>Coupon Carnival | Special offers for you</h4>
+                <div class="col-6"><img src="images/amz5.jpg" alt="" style="width:100%">iwndwdy</div>
+                <div class="col-6"><img src="images/amz13.jpg" alt="" style="width: 100%;">jhgbd</div>
+            </div>
+         </div>
+     </div>
+    </section>
+    <!-- section for cards -->
+    <section class="section8" style="margin:20px;">
+        <div style="padding: 20px; background-color:aliceblue; margin:20px">
+            <h3>Blockbuster Deals</h3>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="images/phn11.jpg" alt=""></div>
+            <div class="item"><img src="images/phn12.jpg" alt=""></div>
+            <div class="item"><img src="images/phn10.jpg" alt=""></div>
+            <div class="item"><img src="images/phn9.jpg" alt=""></div>
+            <div class="item"><img src="images/phn8.jpg" alt=""></div>
+            <div class="item"><img src="images/phn7.jpg" alt=""></div>
+            <div class="item"><img src="images/phn6.jpg" alt=""></div>
+            <div class="item"><img src="images/phn5.jpg" alt=""></div>
+            <div class="item"><img src="images/phn3.jpg" alt=""></div>
+            <div class="item"><img src="images/phn3.jpg" alt=""></div>
+            <div class="item"><img src="images/phn2.jpg" alt=""></div>
+            <div class="item"><img src="images/phn1.jpg" alt=""></div>
+        </div>
+        </div>
+    </section>
+    <!-- section for kitchen cards -->
+    <section class="section8" style="padding:20px; height:300px; background-color:azure">
+        <h3>Up to 60% off | Shop for new kitchenware from local shops</h3>
+        <div style="padding:20px">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img src="images/k.jpg" alt=""></div>
+                <div class="item"><img src="images/k2.jpg" alt=""></div>
+                <div class="item"><img src="images/k3.jpg" alt=""></div>
+                <div class="item"><img src="images/k4.jpg" alt=""></div>
+                <div class="item"><img src="images/k5.jpg" alt=""></div>
+                <div class="item"><img src="images/k6.jpg" alt=""></div>
+                <div class="item"><img src="images/k7.jpg" alt=""></div>
+                <div class="item"><img src="images/k8.jpg" alt=""></div>
+                <div class="item"><img src="images/k9.jpg" alt=""></div>
+                <div class="item"><img src="images/k10.jpg" alt=""></div>
+                <div class="item"><img src="images/k10.jpg" alt=""></div>
+                <div class="item"> <img src="images/k10.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="section8" style="padding:20px; height:300px">
+        <div style="padding:20px; background-color:aliceblue">
+            <h4>Up to 50% off | Kitchen appliances, cookware & more</h4>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="images/2.jpg" alt=""></div>
+            <div class="item"><img src="images/3.jpg" alt=""></div>
+            <div class="item"><img src="images/4.jpg" alt=""></div>
+            <div class="item"><img src="images/5.jpg" alt=""></div>
+            <div class="item"><img src="images/6.jpg" alt=""></div>
+            <div class="item"><img src="images/7.jpg" alt=""></div>
+            <div class="item"><img src="images/8.jpg" alt=""></div>
+            <div class="item"><img src="images/9.jpg" alt=""></div>
+            <div class="item"><img src="images/10.jpg" alt=""></div>
+            <div class="item"><img src="images/112.jpg" alt=""></div>
+            <div class="item"><img src="images/12.jpg" alt=""></div>
+            <div class="item"><img src="images/7.jpg" alt=""></div>
+        </div>
+        </div>
+    </section>
+     <!-- section for footer -->
+     <section class="row section12" >
+        <a style="text-decoration:none" href="index.html">
+            <div style="background-color: gray;box-shadow:2px 5px 8px gray ">
+                <h2 style="text-align: center; color:white"><b>Back To Top</b></h2>
+            </div>
+        </a>
+        <div class="col-md-3">
+            <ul style="list-style: none;">
+                <h2 style="text-align: center; color:white"><b>Get to Know Us</b></h2>
+                <li style="text-align: center;"><a class="ancor" href="index.html" target="_blank">About us</a></li>
+                <li style="text-align: center;"><a class="ancor" href="doubt.html" target="_blank">Careers</a></li>
+                <li style="text-align: center;"><a class="ancor" href="index.html" target="_blank">Press Release</a></li>
+                <li style="text-align: center;"><a class="ancor" href="index.html" target="_blank">Amazon Cares</a></li>
+                <li style="text-align: center;"><a class="ancor" href="index.html" target="_blank">GIft a Smile</a></li>
+                <li style="text-align: center;"><a class="ancor" href="index.html" target="_blank">Amazon Science</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <ul style="list-style: none;">
+                <h2 style="text-align: center; color:white"><b>Connect With Us</b></h2>
+                <li style="text-align: center;"><a class="ancor" href="https://www.facebook.com/AmazonIN" target="_blank">Facebook</a></li>
+                <li style="text-align: center;"><a class="ancor" href="https://twitter.com/AmazonIN" target="_blank">Twitter</a></li>
+                <li style="text-align: center;"><a class="ancor" href="https://www.instagram.com/amazondotin/" target="_blank">Instagram</a></li>
+
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <ul style="list-style: none;">
+                <h2 style="text-align: center; color:white"><b>Make Money With Us</b></h2>
+                <li style="text-align: center;"> <a class="ancor" href="index.html">Sell on Amazon </a> </li>
+                <li style="text-align: center;"> <a class="ancor" href="index.html">Sell under Aazon Aceelerator</a> </li>
+                <li style="text-align: center;"> <a class="ancor" href="index.html"> Amazon Global Selling</a> </li>
+                <li style="text-align: center;"> <a class="ancor" href="index.html">Become an Affiliate </a> </li>
+                <li style="text-align: center;"> <a class="ancor" href="index.html">Fulfilment by Amazon </a> </li>
+                <li style="text-align: center;"> <a class="ancor" href="index.html">Amazon Pay on Merchants </a> </li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <ul style="list-style: none;">
+                <h2 style="text-align: center; color:white"><b>Let Us Help You</b></h2>
+                <li style="text-align: center;"> <a class="ancor" href="index.html">COVID-19 and Amazon</a></li>
+                <li style="text-align: center;"> <a class="ancor" href="index.html">Your Account</a></li>
+                <li style="text-align: center;"> <a class="ancor" href="index.html">Returns Centre</a></li>
+                <li style="text-align: center;"> <a class="ancor" href="index.html">100% Purchase Protection</a></li>
+                <li style="text-align: center;"> <a class="ancor" href="index.html">Amazon App Download</a></li>
+                <li style="text-align: center;"> <a class="ancor" href="index.html">Help</a></li>
+            </ul>
+        </div>
+    </section>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            smartSpeed: 1500,
+            animateIn: 'linear',
+            animateOut: 'linear',
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 5
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
